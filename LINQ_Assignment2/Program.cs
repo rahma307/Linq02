@@ -212,6 +212,28 @@ namespace LINQ_Assignment2
 
             #endregion
 
+            #region task15
+
+            //Using QUERY SYNTAX, group customers by Country, and for each group select{ Country, Count, TotalOrderValue}.
+
+            //var res = from c in CustomerList
+            //          group c by c.Country
+            //         into grouping
+            //          select new
+            //          {
+            //              country = grouping.Key,
+            //              count = grouping.Count(),
+            //              totalordervalue = grouping.Sum(g=>g.Orders.Sum(o=>o.Total))
+            //          };
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine("group : "+item.country);
+            //    Console.WriteLine("count :"+item.count);
+            //    Console.WriteLine("total order value : "+item.totalordervalue);
+            //}
+
+            #endregion
+
         }
     }
 }
