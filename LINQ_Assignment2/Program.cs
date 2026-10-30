@@ -257,6 +257,18 @@ namespace LINQ_Assignment2
 
             #endregion
 
+
+
+            #region task18
+            //  Get a distinct list of all product categories
+
+            //var r = ProductList.DistinctBy(p => p.Category);
+            //foreach (var item in r)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
         }
     }
 }
