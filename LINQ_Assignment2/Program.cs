@@ -195,6 +195,23 @@ namespace LINQ_Assignment2
 
             #endregion
 
+            #region task14
+            //Find all categories that have MORE THAN 3 products
+            //var res = ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3);
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine("group: "+item.Key);
+            //    foreach (var item1 in item)
+            //    {
+            //        Console.WriteLine(item1);   
+            //    }
+            //    Console.WriteLine("===========================");
+            //}
+
+
+
+            #endregion
+
         }
     }
 }
