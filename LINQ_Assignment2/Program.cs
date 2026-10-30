@@ -246,6 +246,17 @@ namespace LINQ_Assignment2
 
             #endregion
 
+            #region task17
+
+            //Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var cheapest = ProductList.Min(p => p.UnitPrice);
+            //var expe = ProductList.Max(p => p.UnitPrice);
+            //Console.WriteLine($"cheapest : {cheapest} , expensive : {expe}");
+
+
+
+            #endregion
+
         }
     }
 }
