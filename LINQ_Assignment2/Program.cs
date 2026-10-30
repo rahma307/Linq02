@@ -1,4 +1,5 @@
 ﻿using LINQ_Assignment2.Models;
+using System.Collections;
 using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Globalization;
@@ -135,6 +136,15 @@ namespace LINQ_Assignment2
             //}
 
 
+            #endregion
+
+            #region task10 
+            // Check if ALL products in the"Seafood" category are in stock
+            //var result = ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+            //if(result)
+            //    Console.WriteLine("all seafod category in stock");
+            //else
+            //    Console.WriteLine("there is product or some products or all products out of stock");
             #endregion
 
         }
