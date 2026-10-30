@@ -359,6 +359,20 @@ namespace LINQ_Assignment2
 
 
             #endregion
+
+
+            #region task26
+
+            // Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+            //var firstthreeproductname = ProductList.Select(p => p.ProductName).Take(3);
+            //var firstthreecustomercompany = CustomerList.Select(c => c.CustomerName).Take(3);
+            //var res = firstthreeproductname.Concat(firstthreecustomercompany);
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
