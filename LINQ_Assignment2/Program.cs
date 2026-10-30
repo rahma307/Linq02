@@ -234,6 +234,18 @@ namespace LINQ_Assignment2
 
             #endregion
 
+
+            #region task16
+
+            // Calculate the total number of units in stock across all products
+
+            //var res = ProductList.Where(p => p.UnitsInStock > 0).Count();
+            //Console.WriteLine(res);
+
+
+
+            #endregion
+
         }
     }
 }
