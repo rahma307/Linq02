@@ -307,6 +307,18 @@ namespace LINQ_Assignment2
             //var res = ProductList.ToDictionary(p => p.ProductID);
             //Console.WriteLine(res[18]);
             #endregion
+
+
+            #region task22
+
+            // Get the first product whose price is greater than$50.
+
+            //var res = ProductList.FirstOrDefault(p => p.UnitPrice > 50);
+            //Console.WriteLine(res);
+
+
+
+            #endregion
         }
     }
 }
