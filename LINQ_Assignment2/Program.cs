@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Numerics;
 using static LINQ_Assignment2.DataSources.Source;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace LINQ_Assignment2
 {
     internal class Program
@@ -35,19 +36,38 @@ namespace LINQ_Assignment2
 
             #region task3
             //Using QUERY SYNTAX with a compound from clause, list all orders placed in 1997 or later showing CustomerID and OrderDate.
-            var result = from c in CustomerList
-                         from order in c.Orders
-                         where order.OrderDate.Year >= 1997
-                         orderby order.OrderDate
-                         select new
-                         {
-                             CustomerId = c.CustomerID,
-                             orderDate = order.OrderDate
-                         };
+            //var result = from c in CustomerList
+            //             from order in c.Orders
+            //             where order.OrderDate.Year >= 1997
+            //             orderby order.OrderDate
+            //             select new
+            //             {
+            //                 CustomerId = c.CustomerID,
+            //                 orderDate = order.OrderDate
+            //             };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+            #region task4
+
+            //Show position number alongside ProductName
+
+            var result = ProductList.Select((p, i) => new
+            {
+                PositionNumber = i + 1,
+                ProductName = p.ProductName
+            });
+
             foreach (var item in result)
             {
                 Console.WriteLine(item);
             }
+
+
 
             #endregion
 
