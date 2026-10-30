@@ -345,6 +345,20 @@ namespace LINQ_Assignment2
 
 
             #endregion
+
+
+            #region task25
+            //Generate even numbers between 1 and 30.
+
+            //var res = Enumerable.Range(1, 30)
+            //            .Where(n => n % 2 == 0);
+            //foreach (var item in res)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
         }
     }
 }
