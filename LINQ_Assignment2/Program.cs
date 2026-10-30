@@ -172,6 +172,29 @@ namespace LINQ_Assignment2
             //}
             #endregion
 
+            #region task13
+            //Group products by Category and project only product names per group
+            //var re = ProductList.GroupBy(p => p.Category).Select(g => new
+            //{
+            //    group = g.Key,
+            //    productName = g.Select(g => g.ProductName)
+            //});
+
+            //foreach (var item in re)
+            //{
+            //    Console.WriteLine("Group"+item.group);
+            //    foreach (var item1 in item.productName)
+            //    {
+            //        Console.WriteLine(item1);
+            //    }
+
+            //    Console.WriteLine("==========================");
+            //}
+
+
+
+            #endregion
+
         }
     }
 }
