@@ -24,12 +24,17 @@ namespace LINQ_Assignment2
             #region task2
             //Get all products from the "Beverages" category, sorted by UnitsInStock descending. Print name and stock.
 
-            var beverageProductsSortedByUnitsInStockDesc = ProductList.Where(p => p.Category == "Beverages")
-                                                                     .OrderByDescending(p => p.UnitsInStock);
-            foreach (var item in beverageProductsSortedByUnitsInStockDesc)
-            {
-                Console.WriteLine($"productName:{item.ProductName} , Stock: {item.UnitsInStock}");  
-            }
+            //var beverageProductsSortedByUnitsInStockDesc = ProductList.Where(p => p.Category == "Beverages")
+            //                                                         .OrderByDescending(p => p.UnitsInStock);
+            //foreach (var item in beverageProductsSortedByUnitsInStockDesc)
+            //{
+            //    Console.WriteLine($"productName:{item.ProductName} , Stock: {item.UnitsInStock}");  
+            //}
+            #endregion
+
+            #region task3
+
+
             #endregion
 
         }
