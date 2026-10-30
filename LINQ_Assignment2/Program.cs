@@ -327,6 +327,24 @@ namespace LINQ_Assignment2
             //var r = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
             //Console.WriteLine(r);
             #endregion
+
+            #region task24
+
+            //Generate a multiplication table row for 7
+            //var result = Enumerable.Range(1, 10)
+            //            .Select(n => new
+            //            {
+            //                Number = n,
+            //                Result = n * 7
+            //            });
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"7 * {item.Number} = {item.Result}");
+            //}
+
+
+            #endregion
         }
     }
 }
