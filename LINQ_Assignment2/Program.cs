@@ -56,12 +56,27 @@ namespace LINQ_Assignment2
 
             //Show position number alongside ProductName
 
-            var result = ProductList.Select((p, i) => new
-            {
-                PositionNumber = i + 1,
-                ProductName = p.ProductName
-            });
+            //var result = ProductList.Select((p, i) => new
+            //{
+            //    PositionNumber = i + 1,
+            //    ProductName = p.ProductName
+            //});
 
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+
+            #endregion
+
+            #region task5
+
+
+            //Sort first by - word length and then by a case -insensitive sort of the words in an array. String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            var result = Arr.OrderBy(w => w.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
             foreach (var item in result)
             {
                 Console.WriteLine(item);
@@ -72,5 +87,5 @@ namespace LINQ_Assignment2
             #endregion
 
         }
-    }
+        }
 }
