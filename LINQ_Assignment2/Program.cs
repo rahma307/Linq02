@@ -5,6 +5,7 @@ using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Globalization;
 using System.Numerics;
+using System.Text.RegularExpressions;
 using static LINQ_Assignment2.DataSources.Source;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace LINQ_Assignment2
@@ -158,6 +159,17 @@ namespace LINQ_Assignment2
             //    Console.WriteLine("not found");
 
 
+            #endregion
+
+            #region task12
+
+            //Group all products by Category and print each group with its product count.
+
+            //var groups = ProductList.GroupBy(p => p.Category);
+            //foreach (var group in groups)
+            //{
+            //    Console.WriteLine($"Group : {group.Key} : count :{group.Count()}");   
+            //}
             #endregion
 
         }
