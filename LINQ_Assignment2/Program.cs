@@ -90,14 +90,26 @@ namespace LINQ_Assignment2
             #region task6
 
             // Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
-            string[] Arr = { "one", "six", "five", "two", "nine", "eight" };
+            //string[] Arr = { "one", "six", "five", "two", "nine", "eight" };
 
-            var result = Arr.Where(w => w[1] == 'i')
-                            .Reverse();
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            //var result = Arr.Where(w => w[1] == 'i')
+            //                .Reverse();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+            #region task7
+            // Get top 3 most expensive products
+
+            //var top3Expensve = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
+            //foreach (var item in top3Expensve)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
 
             #endregion
 
