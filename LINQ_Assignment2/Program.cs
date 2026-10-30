@@ -113,6 +113,18 @@ namespace LINQ_Assignment2
 
             #endregion
 
+            #region task8
+
+            //show page 2 of products, with page size = 5
+            //var result = ProductList.Skip(1 * 5).Take(5);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
+
         }
     }
 }
