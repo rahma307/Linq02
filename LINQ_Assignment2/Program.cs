@@ -373,6 +373,18 @@ namespace LINQ_Assignment2
             //}
 
             #endregion
+
+
+            #region task27
+
+    //        var result = ProductList.Zip(CustomerList,
+    //(p, c) => $"{p.ProductName} sold to {c.CustomerName}");
+
+    //        foreach (var item in result)
+    //        {
+    //            Console.WriteLine(item);
+    //        }
+            #endregion
         }
     }
 }
