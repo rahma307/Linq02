@@ -1,4 +1,5 @@
 ﻿using LINQ_Assignment2.Models;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Globalization;
 using System.Numerics;
@@ -75,17 +76,31 @@ namespace LINQ_Assignment2
 
 
             //Sort first by - word length and then by a case -insensitive sort of the words in an array. String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
-            string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
-            var result = Arr.OrderBy(w => w.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var result = Arr.OrderBy(w => w.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
 
 
             #endregion
 
+            #region task6
+
+            // Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
+            string[] Arr = { "one", "six", "five", "two", "nine", "eight" };
+
+            var result = Arr.Where(w => w[1] == 'i')
+                            .Reverse();
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+            #endregion
+
         }
-        }
+    }
 }
