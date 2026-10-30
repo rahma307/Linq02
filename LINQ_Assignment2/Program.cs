@@ -289,7 +289,7 @@ namespace LINQ_Assignment2
 
             #region task20
             //Find countries that appear in list1 but NOT in list2(case -insensitive).
-                    
+
             //     string[] list1 = { "Germany", "France", "UK", "Spain" }; 
             //    string[] list2 = { "france", "SPAIN", "Italy" };
             //var res = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
@@ -298,6 +298,14 @@ namespace LINQ_Assignment2
             //    Console.WriteLine(item);
             //}
 
+            #endregion
+
+
+            #region task21
+            //Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+
+            //var res = ProductList.ToDictionary(p => p.ProductID);
+            //Console.WriteLine(res[18]);
             #endregion
         }
     }
