@@ -319,6 +319,14 @@ namespace LINQ_Assignment2
 
 
             #endregion
+
+
+            #region task23
+            //Try to get the first product with a price >$500.it returns null instead of throwing.
+
+            //var r = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(r);
+            #endregion
         }
     }
 }
