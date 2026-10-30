@@ -1,5 +1,6 @@
 ﻿using LINQ_Assignment2.Models;
 using System.Collections;
+using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Globalization;
@@ -145,6 +146,18 @@ namespace LINQ_Assignment2
             //    Console.WriteLine("all seafod category in stock");
             //else
             //    Console.WriteLine("there is product or some products or all products out of stock");
+            #endregion
+
+            #region task11
+
+            // Check if the ID list contains 9 int[] ids = { 3, 9, 13, 18 };
+            //int[] ids = { 3, 9, 13, 18 };
+            //if(ids.Any(i=>i==9))
+            //    Console.WriteLine("id 9 found");
+            //else
+            //    Console.WriteLine("not found");
+
+
             #endregion
 
         }
